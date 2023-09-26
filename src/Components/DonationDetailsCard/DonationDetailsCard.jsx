@@ -2,6 +2,19 @@ import PropTypes from "prop-types";
 const DonationDetailCard = ({ donation }) => {
   const { picture, title, description, text_button_bg_color, price } =
     donation || {};
+
+  const handleAddDonation = () => {
+    const addedDonation = [];
+    const donatedItems = JSON.parse(localStorage.getItem("Donation"));
+    if (!donatedItems) {
+      addedDonation.push(donation);
+      localStorage.setItem("Donation", JSON.stringify(addedDonation));
+    } else {
+      addedDonation.push(...donatedItems, donation);
+      localStorage.setItem("Donation", JSON.stringify(addedDonation));
+    }
+  };
+
   const buttonStyle = {
     background: text_button_bg_color,
   };
@@ -14,6 +27,7 @@ const DonationDetailCard = ({ donation }) => {
           className="absolute inset-x-0 bottom-0 bg-[#0B0B0B80] h-[90px]"
         >
           <button
+            onClick={handleAddDonation}
             style={buttonStyle}
             className="text-white p-4 font-bold rounded-md mt-4 ml-4"
           >

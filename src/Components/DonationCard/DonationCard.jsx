@@ -29,7 +29,6 @@ const DonationCard = ({ donation }) => {
           {category}
         </h2>
         <h2 className="font-bold ml-2 py-3">{title}</h2>
-        <button>Details</button>
       </div>
     </Link>
   );
