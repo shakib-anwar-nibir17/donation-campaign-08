@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import Swal from "sweetalert2";
 const DonationDetailCard = ({ donation }) => {
   const { picture, title, description, text_button_bg_color, price } =
     donation || {};
@@ -13,6 +14,11 @@ const DonationDetailCard = ({ donation }) => {
       addedDonation.push(...donatedItems, donation);
       localStorage.setItem("Donation", JSON.stringify(addedDonation));
     }
+    Swal.fire({
+      icon: "success",
+      title: "Thank You for Your Support",
+      text: "Donation Success",
+    });
   };
 
   const buttonStyle = {

@@ -17,7 +17,7 @@ const Statistics = () => {
     { name: "Total Donation", value: 12 - value.length },
   ];
 
-  const COLORS = ["#FF444A", "#00C49F"];
+  const COLORS = ["#00C49F", "#FF444A"];
 
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
