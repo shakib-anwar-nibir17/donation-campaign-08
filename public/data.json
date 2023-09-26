@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/Xj4jy9w/Education.png",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg_color": "#FF444A33",
+    "card_bg_color": "#FF444A26",
+    "text_button_bg_color": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": 199.0
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/3vhMjRT/Health.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg_color": "#0052FF33",
+    "card_bg_color": "#0052FF26",
+    "text_button_bg_color": "#0052FF",
+    "description": "Clean water for children is a fundamental and humanitarian initiative focused on ensuring that children worldwide have access to safe and clean drinking water. This effort seeks to address the global issue of water contamination and scarcity, which disproportionately affects vulnerable communities, including children. It involves implementing water purification and sanitation systems, drilling wells, and providing access to clean water sources in areas where clean water is scarce or contaminated. By safeguarding children's access to clean water, this initiative aims to improve their health, reduce waterborne diseases, enhance overall well-being, and support their growth and development. It is an essential step towards ensuring a brighter and healthier future for the world's children",
+    "price": 239.0
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/PYsMr1M/Food.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg_color": "#F8714733",
+    "card_bg_color": "#F8714726",
+    "text_button_bg_color": "#F87147",
+    "description": "Better food for everyone is a call to action that advocates for improved access to nutritious and sustainable food options for all individuals, regardless of their socioeconomic background. This initiative aims to address various aspects of the food system, including affordability, quality, and sustainability. It involves promoting healthier eating habits, reducing food deserts, supporting local agriculture, and advocating for policies that ensure equitable access to fresh and wholesome foods. By emphasizing the importance of nutritious and environmentally responsible food choices, better food for everyone not only seeks to enhance public health but also contributes to a more equitable and sustainable future for communities and the planet.",
+    "price": 450.0
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/d6jRp8q/Clothing.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F33",
+    "card_bg_color": "#79C23F26",
+    "text_button_bg_color": "#79C23F",
+    "description": "A used clothing drive is a philanthropic effort aimed at collecting gently worn clothing items from the community and redistributing them to individuals or families in need. Typically organized by schools, nonprofit organizations, or local community groups, these drives encourage people to donate their pre-owned clothing such as shirts, pants, dresses, and shoes. The collected items are then sorted, cleaned if necessary, and provided to those facing economic challenges or crises. Used clothing drives promote sustainability by extending the lifespan of clothing and reducing waste. Additionally, they contribute to fostering a sense of community and compassion, emphasizing the importance of sharing resources to help those less fortunate.",
+    "price": 320.0
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/d6jRp8q/Clothing.png",
+    "title": "Warm Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F33",
+    "card_bg_color": "#79C23F26",
+    "text_button_bg_color": "#79C23F",
+    "description": "A warm clothing drive is a charitable endeavor that collects and distributes cold-weather attire such as coats, sweaters, blankets, gloves, and scarves to those in need, especially during the winter months. These initiatives are often organized by schools, community groups, or nonprofits to help individuals facing economic hardship or homelessness stay warm and safe in chilly weather. Warm clothing drives rely on donations from the community, emphasizing the spirit of generosity and solidarity. By providing essential winter garments, they not only offer physical comfort but also convey a message of care and support for those experiencing hardship during the colder seasons.",
+    "price": 359.0
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/PYsMr1M/Food.png",
+    "title": "Nutrition for All",
+    "category": "Food",
+    "category_bg_color": "#F8714733",
+    "card_bg_color": "#F8714726",
+    "text_button_bg_color": "#F87147",
+    "description": "Nutrition for all is a critical initiative aimed at ensuring that every individual, regardless of their socioeconomic status, has access to adequate and nutritious food. It encompasses various aspects, including promoting healthy eating habits, addressing food insecurity, and eliminating malnutrition. Nutrition for all seeks to raise awareness about the importance of balanced diets, micro-nutrients, and proper hydration in supporting physical and mental health. It also involves implementing policies and programs that provide affordable and nutritious food options, particularly for vulnerable populations like children, the elderly, and low-income families. This holistic approach to nutrition not only improves overall health but also contributes to the well-being and productivity of communities worldwide.",
+    "price": 429.0
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/3vhMjRT/Health.png",
+    "title": "Healthcare Essentials",
+    "category": "Health",
+    "category_bg_color": "#0052FF33",
+    "card_bg_color": "#0052FF26",
+    "text_button_bg_color": "#0052FF",
+    "description": "Healthcare essentials encompass the fundamental components necessary for the provision of effective and comprehensive healthcare services. These essentials include medical professionals and skilled staff, hospitals and healthcare facilities, pharmaceuticals and medical supplies, diagnostic tools and equipment, as well as access to preventive care and health education. Additionally, healthcare essentials involve health insurance coverage, tele-medicine services, and an efficient healthcare system that ensures timely access to medical care. These elements collectively contribute to maintaining and improving public health, responding to medical emergencies, and promoting overall well-being within communities.",
+    "price": 259.0
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/Xj4jy9w/Education.png",
+    "title": "Quality Education Resources",
+    "category": "Education",
+    "category_bg_color": "#FF444A33",
+    "card_bg_color": "#FF444A26",
+    "text_button_bg_color": "#FF444A",
+    "description": "Quality education resources encompass a diverse range of tools and materials aimed at fostering effective, inclusive, and accessible learning experiences. These resources encompass curriculum materials, digital learning platforms, teacher training programs, scholarships, and open educational resources (OER) that empower both students and educators. They also include libraries, tutoring services, community learning centers, and inclusive education resources designed to ensure that every learner has equal access to educational opportunities. Moreover, engaging parents and communities, along with leveraging education technology, plays a pivotal role in enhancing the overall quality of education, making it a multifaceted and collaborative effort.",
+    "price": 189.0
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/3vhMjRT/Health.png",
+    "title": "Medical Aid Mission",
+    "category": "Health",
+    "category_bg_color": "#0052FF33",
+    "card_bg_color": "#0052FF26",
+    "text_button_bg_color": "#0052FF",
+    "description": "Medical aid missions often involve a team of doctors, nurses, and support staff who volunteer their time and expertise to offer critical healthcare services to those who lack access to proper medical facilities. These missions can make a significant difference in improving the health and well-being of vulnerable populations, especially in areas with limited healthcare infrastructure or during emergencies like natural disasters or pandemics. They embody the spirit of global solidarity and the commitment to ensuring everyone has the right to basic healthcare.",
+    "price": 319.0
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/Xj4jy9w/Education.png",
+    "title": "Scholarship Program",
+    "category": "Education",
+    "category_bg_color": "#FF444A33",
+    "card_bg_color": "#FF444A26",
+    "text_button_bg_color": "#FF444A",
+    "description": "A scholarship program is a structured initiative aimed at providing financial assistance to individuals pursuing education, typically in the form of grants or financial awards. These programs are often offered by educational institutions, foundations, governments, or private organizations. Scholarships are awarded based on various criteria such as academic achievement, financial need, community involvement, or specific talents. By alleviating the financial burden of tuition and related expenses, scholarship programs empower students to access higher education and advance their career aspirations. They play a vital role in promoting equal educational opportunities and fostering talent development, making education more accessible and inclusive.",
+    "price": 149.0
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/d6jRp8q/Clothing.png",
+    "title": "Winter Clothing Drive",
+    "category": "Clothing",
+    "category_bg_color": "#79C23F33",
+    "card_bg_color": "#79C23F26",
+    "text_button_bg_color": "#79C23F",
+    "description": "A winter clothing drive is a charitable initiative that gathers warm clothing items like coats, sweaters, hats, gloves, and scarves to distribute to individuals in need during the cold winter months. These drives are often organized by community groups, schools, or nonprofits to provide warmth and comfort to those who may not have the means to afford winter apparel. They promote empathy and solidarity within communities, encouraging people to donate their gently used or new winter clothing items to help those less fortunate. Winter clothing drives exemplify the spirit of giving and ensure that everyone can stay warm during the coldest season",
+    "price": 399.0
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/PYsMr1M/Food.png",
+    "title": "Community Food Banks",
+    "category": "Food",
+    "category_bg_color": "#F8714733",
+    "card_bg_color": "#F8714726",
+    "text_button_bg_color": "#F87147",
+    "description": "Community food banks play a crucial role in addressing food insecurity by providing essential sustenance to individuals and families in need. These nonprofit organizations collect and distribute food donations to vulnerable populations, ensuring that no one goes hungry. They serve as a vital safety net during times of economic hardship or crisis, offering not only nourishment but also hope and support to those facing hunger. Community food banks rely on the generosity of donors and volunteers to carry out their mission, making them a testament to the power of collective compassion in combating hunger and promoting food equity.",
+    "price": 289.0
+  }
+]
