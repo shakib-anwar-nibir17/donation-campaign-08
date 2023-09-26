@@ -13,18 +13,42 @@ const Donation = () => {
       setNoFound("No donation has been made");
     }
   }, []);
+
+  const [isShow, setIsShow] = useState(false);
+  console.log(isShow);
+
+  const buttonShow = myDonations.length >= 4;
   return (
     <div>
       {noFound ? (
         <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
       ) : (
         <div className="mt-10 grid grid-cols-2 gap-5">
-          {myDonations.map((myDonation) => (
-            <MyDonationCard
-              key={myDonation.id}
-              myDonation={myDonation}
-            ></MyDonationCard>
-          ))}
+          {isShow
+            ? myDonations.map((myDonation) => (
+                <MyDonationCard
+                  key={myDonation.id}
+                  myDonation={myDonation}
+                ></MyDonationCard>
+              ))
+            : myDonations
+                .slice(0, 4)
+                .map((myDonation) => (
+                  <MyDonationCard
+                    key={myDonation.id}
+                    myDonation={myDonation}
+                  ></MyDonationCard>
+                ))}
+        </div>
+      )}
+      {buttonShow && (
+        <div className="flex justify-center">
+          <button
+            onClick={() => setIsShow(!isShow)}
+            className="bg-[#009444] p-4 text-white rounded-md font-semibold  mt-4"
+          >
+            {!isShow ? "Show More" : "Show Less"}
+          </button>
         </div>
       )}
     </div>
