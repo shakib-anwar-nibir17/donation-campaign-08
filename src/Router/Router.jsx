@@ -14,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+        loader: () =>
+          fetch(
+            "https://shakib-anwar-nibir17.github.io/donation-api/data.json"
+          ),
       },
       {
         path: "/donation",
