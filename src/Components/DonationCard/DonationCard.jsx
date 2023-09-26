@@ -21,7 +21,7 @@ const DonationCard = ({ donation }) => {
   return (
     <Link to={`/home/${id}`}>
       <div className="rounded-lg" style={cardStyle}>
-        <img className="w-full" src={picture} alt="" />
+        <img className="w-full h-[194px]" src={picture} alt="" />
         <h2
           className="w-1/4 p-2 mt-3 rounded ml-2 font-bold text-center"
           style={categoryStyle}

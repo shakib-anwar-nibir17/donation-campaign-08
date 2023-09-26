@@ -27,7 +27,7 @@ const DonationDetailCard = ({ donation }) => {
   return (
     <div className="mt-10 min-h-[70vh] relative">
       <div className="w-full relative">
-        <img className="w-full bg-cover" src={picture} alt="" />
+        <img className="w-full md:h-[700px] bg-cover" src={picture} alt="" />
         <div
           id="div1"
           className="absolute inset-x-0 bottom-0 bg-[#0B0B0B80] h-[90px]"
