@@ -22,7 +22,7 @@ const MyDonationCard = ({ myDonation }) => {
   };
 
   return (
-    <div style={cardStyle} className="flex rounded-md gap-8">
+    <div style={cardStyle} className="flex rounded-md gap-4 md:gap-8">
       <div>
         <img
           className="w-[200px] h-full lg:h-[200px] rounded"
