@@ -45,9 +45,11 @@ const Donation = () => {
         <div className="flex justify-center">
           <button
             onClick={() => setIsShow(!isShow)}
-            className="bg-[#009444] p-4 text-white rounded-md font-semibold  mt-4"
+            className={`bg-[#009444] px-6 py-4 ${
+              !isShow ? "" : "hidden"
+            } text-white rounded-md font-semibold  mt-4`}
           >
-            {!isShow ? "Show More" : "Show Less"}
+            See All
           </button>
         </div>
       )}
