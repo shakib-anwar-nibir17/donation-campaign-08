@@ -1,4 +1,9 @@
-const Banner = () => {
+import PropTypes from "prop-types";
+const Banner = ({
+  handleSearchButton,
+  searchQuery,
+  handleSearchInputChange,
+}) => {
   return (
     <div className="relative">
       <div className="h-[200px] md:h-[400px] lg:h-[800px] bg-cover relative bg-[url('https://i.ibb.co/SJcHJvg/fc1f79e18cdc1a12320b9b10ec3e253d.jpg')]"></div>
@@ -15,8 +20,13 @@ const Banner = () => {
             name="search"
             id=""
             placeholder="search here..."
+            value={searchQuery}
+            onChange={handleSearchInputChange}
           />
-          <button className="bg-[#FF444A] px-6 text-white font-semibold rounded-e-md -ml-2">
+          <button
+            onClick={handleSearchButton}
+            className="bg-[#FF444A] px-6 text-white font-semibold rounded-e-md -ml-2"
+          >
             Search
           </button>
         </div>
@@ -25,4 +35,9 @@ const Banner = () => {
   );
 };
 
+Banner.propTypes = {
+  handleSearchButton: PropTypes.func,
+  searchQuery: PropTypes.string,
+  handleSearchInputChange: PropTypes.func,
+};
 export default Banner;
