@@ -1,8 +1,9 @@
-# React + Vite
+# This project is a simple and basic web application based on React with the help of React Router, HTML And Tailwind CSS technology.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features of this project
 
-Currently, two official plugins are available:
+### Feature-1 The project is search compatible. Users can search for donations using the category. Each category is distinct with its styling giving users the ability to choose their desired category for donation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Feature-2 Each Donation item has a individual detail page. User can check the details of the donation by clicking the donation card on the Home page. On the detail page , user can donate and after successful donation, the user will be given success alert.
+
+### Feature-3 User can see their donation in clicking the Donation navlink on the right of the navbar. It has recorded all the donation made by the user. Initially local storage of Browser has been used to store the information. Based on this information the statistics page updates the pie chart.
