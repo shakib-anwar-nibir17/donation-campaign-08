@@ -24,7 +24,11 @@ const MyDonationCard = ({ myDonation }) => {
   return (
     <div style={cardStyle} className="flex rounded-md gap-8">
       <div>
-        <img className="w-[200px] h-[200px]" src={picture} alt="" />
+        <img
+          className="w-[200px] h-full lg:h-[200px] rounded"
+          src={picture}
+          alt=""
+        />
       </div>
       <div>
         <h1
@@ -42,7 +46,7 @@ const MyDonationCard = ({ myDonation }) => {
         <h3 className="font-bold text-2xl ml-2 py-2">${price}</h3>
         <button
           style={buttonStyle}
-          className="text-white ml-2 p-2 font-bold rounded-md"
+          className="text-white ml-2 p-2 font-bold rounded-md mb-3"
         >
           View Details
         </button>

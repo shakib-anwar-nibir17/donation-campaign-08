@@ -17,13 +17,13 @@ const Donation = () => {
   const [isShow, setIsShow] = useState(false);
   console.log(isShow);
 
-  const buttonShow = myDonations.length >= 4;
+  const buttonShow = myDonations.length > 4;
   return (
     <div>
       {noFound ? (
         <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
       ) : (
-        <div className="mt-10 grid grid-cols-2 gap-5">
+        <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-5">
           {isShow
             ? myDonations.map((myDonation) => (
                 <MyDonationCard
