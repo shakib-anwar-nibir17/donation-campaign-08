@@ -23,7 +23,7 @@ const DonationCard = ({ donation }) => {
       <div className="rounded-lg" style={cardStyle}>
         <img className="w-full h-[194px] rounded-lg" src={picture} alt="" />
         <h2
-          className="w-1/4 p-2 mt-3 rounded ml-2 font-bold text-center"
+          className="w-1/3 md:w-1/4 p-2 mt-3 rounded ml-2 font-bold text-center"
           style={categoryStyle}
         >
           {category}

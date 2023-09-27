@@ -7,7 +7,9 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <DonationContainer donations={donations}></DonationContainer>
+      <div className="mt-10 md:py-10">
+        <DonationContainer donations={donations}></DonationContainer>
+      </div>
     </div>
   );
 };
